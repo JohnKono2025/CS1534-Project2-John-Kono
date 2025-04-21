@@ -1,0 +1,16 @@
+{
+  "name": "john-kono-project2-website",
+  "version": "1.0.0",
+  "description": "my website with socket chat app",
+  "license": "ISC",
+  "author": "John Kono",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
