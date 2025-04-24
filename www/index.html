@@ -34,13 +34,27 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="chat.html">Chat</a>
+            <a class="nav-link" href="#" onclick="smallChatWindows()">Chat</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- Nav End -->
+
+  <script>
+    function smallChatWindows() {
+        // First popup window
+        window.open("chat.html", "_blank", "width=380,height=260");
+
+        // Second popup window
+        window.open("chat.html", "_blank", "width=380,height=260");
+
+        if (!_blank1 || !_blank2) {
+                alert("Popups were blocked! Please enable popups in your browser settings.");
+            }
+    }
+</script>
 
 
   
