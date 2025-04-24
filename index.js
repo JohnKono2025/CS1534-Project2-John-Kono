@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const http = require('http');
 const server = http.createServer(app);
+const hostname ="127.0.0.1";
+const port = 3000;
 
 const path = require('path');
 
@@ -24,6 +26,6 @@ app.get('/', (req, res) => {
 
   
 
-server.listen(3000, () => {
-  console.log('listening on *:3000');
+server.listen(port,hostname, () => {
+  console.log('Listening on 127.0.0.1:3000');
 });
